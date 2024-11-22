@@ -7,6 +7,7 @@
     html {
       height: 100%;
     }
+
     body {
       margin: 0px;
       padding: 0px;
@@ -15,55 +16,56 @@
     }
   </style>
 </head>
-  <body>
-<!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
-  {
-  "colorTheme": "dark",
-  "dateRange": "12M",
-  "showChart": true,
-  "locale": "en",
-  "width": "100%",
-  "height": "100%",
-  "largeChartUrl": "",
-  "isTransparent": false,
-  "showSymbolLogo": true,
-  "showFloatingTooltip": false,
-  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
-  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
-  "gridLineColor": "rgba(42, 46, 57, 0)",
-  "scaleFontColor": "rgba(209, 212, 220, 1)",
-  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
-  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
-  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
-  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
-  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
-  "tabs": [
-    {
-      "title": "Indices",
-      "symbols": [
-        {
-          "s": "BINANCE:BTCUSD",
-          "d": "BTCUSD"
-        },
-        {
-          "s": "CAPITALCOM:USDTRY",
-          "d": "USDTRY"
-        },
-        {
-          "s": "BIST:XAUUSD1!",
-          "d": "XAUUSD"
-        }
-      ],
-      "originalTitle": "Indices"
-    }
-  ]
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
-  </body>
+
+<body>
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+      {
+        "colorTheme": "dark",
+          "dateRange": "1M",
+            "showChart": true,
+              "locale": "en",
+                "width": "100%",
+                  "height": "100%",
+                    "largeChartUrl": "",
+                      "isTransparent": false,
+                        "showSymbolLogo": true,
+                          "showFloatingTooltip": false,
+                            "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                              "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                                "gridLineColor": "rgba(42, 46, 57, 0)",
+                                  "scaleFontColor": "rgba(209, 212, 220, 1)",
+                                    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                                      "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                                        "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                                          "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                                            "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                                              "tabs": [
+                                                {
+                                                  "title": "Indices",
+                                                  "symbols": [
+                                                    {
+                                                      "s": "BINANCE:BTCUSD",
+                                                      "d": "BTCUSD"
+                                                    },
+                                                    {
+                                                      "s": "CAPITALCOM:USDTRY",
+                                                      "d": "USDTRY"
+                                                    },
+                                                    {
+                                                      "s": "BIST:XAUUSD1!",
+                                                      "d": "XAUUSD"
+                                                    }
+                                                  ],
+                                                  "originalTitle": "Indices"
+                                                }
+                                              ]
+      }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</body>
 
 </html>
